@@ -1,0 +1,48 @@
+.ske{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    /* background-color: blanchedalmond; */
+    margin-top: 20px;
+        max-width: 1000px;
+    font-size: 25px;
+    margin: 10px auto;
+    text-align: center;
+}
+.skills{
+   
+width:90%;
+margin:5px auto;
+padding: 10px;
+
+}
+.row1{
+    
+    display: flex;
+    
+    margin:10px;
+   flex-wrap:wrap;
+   gap: 10px;
+    
+}
+.col{
+  flex: 1 1 45%;
+  min-width: 400px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin:10px;
+    flex-wrap: wrap;
+    transition: border 0.3s ease;
+}
+.col h2{
+    color: #6a11cb;
+}
+.col:hover{
+    border:2px solid #6a11cb;
+    box-shadow: #6a11cb 0px 0px 20px;
+}

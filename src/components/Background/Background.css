@@ -1,0 +1,113 @@
+.cont{
+    margin: 200px;
+}
+.partition {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-wrap: wrap;       /* allow halves to wrap on small screens */
+    gap: 10px;
+    width: 80%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    
+}
+
+.half {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 45%;        
+    /* background-color: aquamarine; */
+   
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box; /* include padding in width */
+    min-width: 300px;       /* ensure it doesn’t shrink too much */
+}
+
+.edu {
+    display: flex;
+    align-items: center;    /* vertically align icon + heading */
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    
+}
+.pink{
+    color: var(--pnk);
+}
+.purple{
+    color: var(--purp);
+}
+
+.degrees {
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius:10px;
+    width: 100%;           
+    margin: 10px 0px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+.clg:hover {
+    border: 1px solid var(--purp);
+     transform: translateY(-5px);
+}
+ .clg:hover h2{
+    color:var(--purp);
+ }
+.ints:hover {
+    border: 1px solid var(--pnk);
+     transform: translateY(-8px);
+}
+.ints:hover h2{
+    color:var(--pnk);
+ }
+.pink h4{
+    color: var(--purp);
+}
+.degrees h2{
+    color: white;
+}
+span{
+    font-size:30px;
+    margin:0px 10px;
+}
+.chill {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.chill p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.learn{
+    text-align: center;
+    margin-top:6%;
+    box-shadow: 0px 0px 10px var(--pnk);
+    transition: 0.2s ease-in;
+   
+}
+.learn:hover{
+    box-shadow: 0px 0px 10px var(--purp);
+    transform: translateY(6px);
+}
+.purple h4{
+    margin-top: 4px;
+    color: var(--pnk);
+}
+.learn h3{
+    color: var(--purp);
+}
+.learn h4{
+    color: gray;
+}
+@media (max-width: 800px) {
+    .half {
+        flex: 1 1 100%;   /* full width on small screens */
+    }
+}

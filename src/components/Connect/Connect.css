@@ -1,0 +1,153 @@
+.connect{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    
+    padding: 2%;
+    margin-top: 20px;
+    max-width: 90%;
+    font-size: 25px;
+    margin: 10px auto;
+  
+    /* border:2px solid #6a11cb; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.connect-form{
+  flex: 1 45%;
+  min-width:450px;
+  border: 2px solid grey;
+  
+padding:20px;
+border-radius: 18px;
+}
+.connect-form:hover{
+    border: 2px solid #6a11cb;
+}
+.connect-form h3{
+    color: #6a11cb;
+}
+.connect-direct{
+flex: 1  45%;
+min-width:450px;
+padding: 10px;
+/* border: 2px solid red; */
+
+}
+.connect-direct a{
+    text-decoration: none;
+    color:inherit;
+}
+.connect-direct h3{
+    color:palevioletred;
+}
+form{
+/* background-color: aliceblue; */
+padding: 20px;
+border-radius: 10px;
+line-height: 2;
+}
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+.hname {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+input,textarea {
+    width: 100%;
+    background: none;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+
+}
+textarea {
+    resize: none;
+    max-height: 100px;
+}
+button {
+    background-color: #6a11cb;
+    color: white;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hname h5{
+    color: white;
+}
+input,textarea::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid #6a11cb;
+  box-shadow: 0 0 4px rgba(106, 17, 203, 0.4);
+}
+.pbox{
+    border: 1px solid grey;
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+     transition: 0.3s ease-in;
+}
+.impicon{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+text-align: center;
+
+}
+.info{
+    padding:3px 10px;
+}
+.info h6{
+    color:grey;
+}
+.cn{
+    /* text-align:left; */
+    float:left;
+}
+.cn p{
+    color: #6a11cb;
+    font-size: 30px;
+    padding-left: 20PX;
+}
+.pbox:hover{
+    color:var(--pnk);
+    border:1px solid var(--pnk);
+   
+    transform:translateY(-6px);
+}
+.pbox:hover h6{
+    color:var(--pnk);
+    
+}
+.totop{
+  position: fixed;
+  right: 10px;
+  bottom: 5%;
+  color: white;
+  background-color: black;
+  border: 2px solid #6a11cb;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

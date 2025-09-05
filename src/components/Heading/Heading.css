@@ -1,0 +1,29 @@
+.ske{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    /* background-color: blanchedalmond; */
+    margin-top: 40px;
+        max-width: 1000px;
+    font-size: 25px;
+    margin: 10px auto;
+    text-align: center;
+}
+.low-csr{
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff4cc3, #4c6eff, #4cff88);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 4s ease infinite;
+    
+}
+p{
+    font-size: 25px;
+    color: grey;
+    margin: 10px 0;
+}

@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+   /* max-width: 1280px; */
+  margin: 5px;
+
+  padding:10px;
+}
+
+/* body{
+  background-color:#13171F;
+  padding: 2%;
+} */
+/* .ppl-hd{
+  color:#8D4BFF;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+} */
+
+body {
+  color: #94A3B8;
+  background: 
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.02) 0%,       /* very subtle white center */
+      rgba(28, 27, 50, 1) 30%,             /* cooler dark blue */
+      rgba(0, 0, 0, 1) 100%                /* pure black edges */
+    ),
+    linear-gradient(to right, rgba(0, 0, 80, 0.1), transparent); /* subtle blue overlay on left to right */
+    
+  background-color: #221F35;               /* fallback color */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* Optional soft movement effect */
+@keyframes hazeMove {
+  0% {
+    background-position: 0% 0%, 100% 100%, center;
+  }
+  50% {
+    background-position: 50% 50%, 50% 50%, center;
+  }
+  100% {
+    background-position: 0% 0%, 100% 100%, center;
+  }
+}
+
+body.animate-haze {
+  animation: hazeMove 15s ease-in-out infinite;
+}
+:root{
+  --purp:#6a11cb;
+  --pnk:#E0528D;
+}
