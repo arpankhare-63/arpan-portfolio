@@ -10,19 +10,14 @@
   padding:10px;
 }
 
-/* body{
-  background-color:#13171F;
-  padding: 2%;
-} */
-/* .ppl-hd{
-  color:#8D4BFF;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-} */
 
-body {
-  color: #94A3B8;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* removes horizontal scrollbar globally */
+  box-sizing: border-box;
+    color: #94A3B8;
   background: 
     radial-gradient(
       circle,
@@ -37,6 +32,10 @@ body {
   background-size: cover;
   background-position: center center;
 }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 
 
 /* Optional soft movement effect */
@@ -58,4 +57,18 @@ body.animate-haze {
 :root{
   --purp:#6a11cb;
   --pnk:#E0528D;
-}
+
+          --background: 220 25% 6%;
+          --foreground: 210 40% 98%;
+          --card: 220 25% 8%;
+          --primary: 263 70% 60%;
+          --primary-foreground: 210 40% 98%;
+          --secondary: 220 20% 12%;
+          --muted: 220 20% 12%;
+          --muted-foreground: 215 20% 65%;
+          --accent: 335 70% 60%;
+          --accent-foreground: 210 40% 98%;
+          --primary-glow: 263 70% 70%;
+          --accent-glow: 335 70% 70%;
+          --radius: 0.5rem;
+        }

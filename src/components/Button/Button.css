@@ -31,3 +31,17 @@
   color: white;
   /* box-shadow: #6A11CB 0px 0px 20px; */
 }
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 640px) {
+  .btn {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}

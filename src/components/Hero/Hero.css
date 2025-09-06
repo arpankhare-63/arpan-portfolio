@@ -1,19 +1,4 @@
-/* CSS Variables - HSL color format */
-        :root {
-          --background: 220 25% 6%;
-          --foreground: 210 40% 98%;
-          --card: 220 25% 8%;
-          --primary: 263 70% 60%;
-          --primary-foreground: 210 40% 98%;
-          --secondary: 220 20% 12%;
-          --muted: 220 20% 12%;
-          --muted-foreground: 215 20% 65%;
-          --accent: 335 70% 60%;
-          --accent-foreground: 210 40% 98%;
-          --primary-glow: 263 70% 70%;
-          --accent-glow: 335 70% 70%;
-          --radius: 0.5rem;
-        }
+
 
         /* Base styles */
         * {
