@@ -126,6 +126,9 @@
           .hero-description {
             font-size: 1.25rem;
           }
+          #home{
+            margin: auto;
+          }
         }
 
         .hero-buttons {

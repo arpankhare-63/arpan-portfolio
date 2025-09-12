@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import menu_icon from "../../assets/icon/menu-icon.png";
-import Button from "../Button/Button";
+import Button from "../Button/Button"; // Scroll-aware, unstyled
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef} className={`navbar ${sticky ? "dark-nav" : ""}`}>
-      {/* Logo / Name */}
+      {/* Logo */}
       <h1 className="Sn">AK</h1>
 
       {/* Navigation Links */}
@@ -41,38 +41,37 @@ const Navbar = () => {
         }`}
       >
         <li>
-          <Button className="nav-menu-btn" scroll="Home">Home</Button>
+          <Button className="nav-menu-btn" scroll="Home" onClick={() => setMobileMenu(false)}>Home</Button>
         </li>
         <li>
-          <Button className="nav-menu-btn" scroll="About_me">About</Button>
+          <Button className="nav-menu-btn" scroll="About_me" onClick={() => setMobileMenu(false)}>About</Button>
         </li>
         <li>
-          <Button className="nav-menu-btn" scroll="Skills">Skills</Button>
+          <Button className="nav-menu-btn" scroll="Skills" onClick={() => setMobileMenu(false)}>Skills</Button>
         </li>
         <li>
-          <Button className="nav-menu-btn" scroll="Certification">Certification</Button>
+          <Button className="nav-menu-btn" scroll="Certification" onClick={() => setMobileMenu(false)}>Certification</Button>
         </li>
         <li>
-          <Button className="nav-menu-btn" scroll="Projects">Projects</Button>
+          <Button className="nav-menu-btn" scroll="Projects" onClick={() => setMobileMenu(false)}>Projects</Button>
         </li>
         <li>
-          <Button className="nav-menu-btn" scroll="Experience">Education & Experience</Button>
+          <Button className="nav-menu-btn" scroll="Experience" onClick={() => setMobileMenu(false)}>Education & Experience</Button>
         </li>
         <li>
-          <Button className="navstyle" scroll="Contact">Contact</Button>
+          <Button className="navstyle" scroll="Contact" onClick={() => setMobileMenu(false)}>Contact</Button>
         </li>
       </ul>
 
       {/* Hire Me Button */}
       <div className="exception">
-        <Button
+        <a
           className="btn-blue cn"
-          scroll="" // or leave empty if linking to mailto, see note below
           href="mailto:kharearpan7777@gmail.com?subject=Hiring%20Opportunity&body=Hi%20Arpan,"
           onClick={() => setMobileMenu(false)}
         >
           Hire Me
-        </Button>
+        </a>
       </div>
 
       {/* Mobile Menu Icon */}

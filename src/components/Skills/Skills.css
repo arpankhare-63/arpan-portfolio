@@ -1,48 +1,96 @@
-.ske{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    /* background-color: blanchedalmond; */
-    margin-top: 20px;
-        max-width: 1000px;
-    font-size: 25px;
-    margin: 10px auto;
-    text-align: center;
+/* Skills Section Wrapper */
+#Skills {
+  padding: 4rem 1rem;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
 }
-.skills{
-   
-width:90%;
-margin:5px auto;
-padding: 10px;
 
+.skills {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
-.row1{
-    
-    display: flex;
-    
-    margin:10px;
-   flex-wrap:wrap;
-   gap: 10px;
-    
+
+/* Row container */
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center; /* center columns */
 }
-.col{
-  flex: 1 1 45%;
-  min-width: 400px;
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    border: 2px solid grey;
-    border-radius: 10px;
-    margin:10px;
-    flex-wrap: wrap;
-    transition: border 0.3s ease;
+
+/* Each column */
+.col {
+  flex: 1 1 45%;        /* base width for two columns */
+  min-width: 250px;     /* mobile-friendly */
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  background-color: hsl(var(--card));
 }
-.col h2{
-    color: #6a11cb;
+
+.col h2 {
+  color: #6a11cb;
+  margin-bottom: 1rem;
 }
-.col:hover{
-    border:2px solid #6a11cb;
-    box-shadow: #6a11cb 0px 0px 20px;
+
+/* Hover effect */
+.col:hover {
+  border: 2px solid #6a11cb;
+  box-shadow: 0 0 20px #6a11cb;
+}
+
+/* Responsive breakpoints */
+
+/* Tablets: two columns side by side (flex) */
+@media (max-width: 1024px) {
+  .col {
+    flex: 1 1 45%;
+  }
+}
+
+/* Small screens: 2x2 layout using grid */
+@media (max-width: 768px) {
+  .row1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns × 2 rows */
+    gap: 1rem;
+  }
+  .col {
+    flex: none;
+    min-width: auto;
+  }
+}
+
+/* Very small screens: single column stack */
+@media (max-width: 480px) {
+  .row1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Percent bar styling */
+.percent-container {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.percent-bar {
+  width: 100%;
+  background-color: hsl(var(--muted));
+  border-radius: 5px;
+  overflow: hidden;
+  height: 12px;
+}
+
+.percent-fill {
+  height: 100%;
+  background-color: hsl(var(--primary));
+  width: 0%;
+  transition: width 1s ease-in-out;
+  border-radius: 5px;
 }

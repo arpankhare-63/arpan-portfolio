@@ -42,8 +42,8 @@ const Projects = () => {
       
         </div>
         <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/Virtual-Assistant/">
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Blinkit-Data-Analysis "><FiGithub/> code</Button>
+        <Button className="btn-green special" href="https://arpankhare-63.github.io/Blinkit-Data-Analysis ">
   🔗 Live
 </Button></div> 
                   </div>
@@ -112,8 +112,8 @@ const Projects = () => {
        <p className='prb'>Date and Time Api</p>
         </div>
          <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/Taskly/">
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/SkyCast"><FiGithub/> code</Button>
+        <Button className="btn-green special" href="https://arpankhare-63.github.io/SkyCast/">
   🔗 Live
 </Button></div>
         </div>
@@ -129,8 +129,8 @@ const Projects = () => {
        <p className='prb'>Web Speech Api</p>
         </div>
         <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/Taskly/">
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Portfolio"><FiGithub/> code</Button>
+        <Button className="btn-green special" href="https://arpankhare-63.github.io/Portfolio/">
   🔗 Live
 </Button></div>
         </div>
@@ -146,7 +146,7 @@ const Projects = () => {
 
         </div>
          <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Taskly"><FiGithub/> code</Button>
         <Button className="btn-green special" href="https://arpankhare-63.github.io/Taskly/">
   🔗 Live
 </Button></div>
@@ -164,7 +164,7 @@ const Projects = () => {
        
         </div>
         <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Taskly"><FiGithub/> code</Button>
         <Button className="btn-green special" href="https://arpankhare-63.github.io/Taskly/">
   🔗 Live
 </Button></div>

@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="Home">
       {loading && (
         <div className="loader-overlay">
           <div className="loader"></div>

@@ -11,7 +11,7 @@ import "./Certificates.css";
 // Replace with your own images (certificates or flowers)
 import slide3 from "../../assets/certificate/Angular.png";
 import slide2 from "../../assets/certificate/AngularWeb.png";
-import slide1 from "../../assets/certificate/DataScience+py.png";
+import slide1 from "../../assets/certificate/DataScience+PY.png";
 import slide9 from "../../assets/certificate/Email.png";
 import slide11 from "../../assets/certificate/HighImpactPresentation.png";
 import slide7 from "../../assets/certificate/JS.png";
@@ -87,6 +87,7 @@ const Certificates = () => {
 
       </Swiper>
               <p className="crt">View The certificates below</p>
+              <div className="gapps">
       <div className="btns">
 
         <Button className="btn-blue cs" href="https://drive.google.com/file/d/12Lnt5jYU13_iMYE0H0rrCUU1yumaJBUA/view?usp=sharing" children="Email Writting Skill" />
@@ -104,7 +105,7 @@ const Certificates = () => {
 <Button className="btn-blue cs" href="https://drive.google.com/file/d/1wsegGApCqNxrJ3_lr8J0BekJJ4uYGoU6/view?usp=sharing" children="Data Science with Python" />
 <Button className="btn-blue cs" href="https://drive.google.com/file/d/1xQ0HLkxHut6zQInBqlSiIzZHsI2lmpMf/view?usp=sharing" children="Responsive web Pages using BootStrap" />
 
-        </div>
+        </div></div>
     </section>
     </div>
   );

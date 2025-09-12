@@ -58,6 +58,9 @@
 .cert-swiper .swiper-pagination-bullet-active {
   opacity: 1;
 }
+.gapps{
+  line-height:1;;
+}
 
 /* Navigation arrows */
 .cert-swiper .swiper-button-prev,
