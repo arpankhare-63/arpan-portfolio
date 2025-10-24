@@ -79,7 +79,7 @@ const Projects = () => {
        <p className='prb'>Memory game</p>
         </div>
         <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Simon-say-Game"><FiGithub/> code</Button>
         <Button className="btn-green special" href="https://arpankhare-63.github.io/Simon-say-Game/">
   🔗 Live
 </Button></div>
