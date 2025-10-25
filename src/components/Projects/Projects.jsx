@@ -102,8 +102,8 @@ const Projects = () => {
         </div>
 
   <div className="pro ints">
-            <h2>SkyCast</h2>
-            <h5>SkyCast provides real-time weather, forecasts and local time for every city, with interactive visuals and easy-to-read data for your day-to-day planning. </h5>
+            <h2>SkyForecast</h2>
+            <h5>SkyForecast provides real-time weather, forecasts and local time for every city, with interactive visuals and easy-to-read data for your day-to-day planning. </h5>
                  <div className="probtn">
        <p className='prb'>HTML</p>
        <p className='prb'>CSS</p>
@@ -112,8 +112,8 @@ const Projects = () => {
        <p className='prb'>Date and Time Api</p>
         </div>
          <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/SkyCast"><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/SkyCast/">
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/SkyForecast"><FiGithub/> code</Button>
+        <Button className="btn-green special" href="https://arpankhare-63.github.io/SkyForecast/">
   🔗 Live
 </Button></div>
         </div>
