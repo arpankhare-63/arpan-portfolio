@@ -122,7 +122,7 @@ const Connect = () => {
             <div className="impicon"><IoLocation /></div>
             <div className="info">
               <h5>Location</h5>
-              <h6>C21 Gurunanak Pura Laxmi Nagar 110092</h6>
+              <h6>Delhi, India</h6>
             </div>
           </div>
 

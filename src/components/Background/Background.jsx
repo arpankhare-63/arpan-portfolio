@@ -64,6 +64,10 @@ const Background = () => {
             date="2017" 
             location="KP College Pratapgarh, UP" 
           />
+             <div className="degrees learn">
+            <h3>Continuous Learning</h3>
+            <h4>Always learning new technologies</h4>
+          </div>
         </div>
 
         {/* Internship Column */}
@@ -74,20 +78,31 @@ const Background = () => {
           </div>
 
           <Internship 
-            company="Techpile Technologies Pvt. Ltd, Lucknow" 
-            program="2-month Android development program using Java" 
+            company="Techpile Technologies Pvt. Ltd, Lucknow " 
+            program="Android development using Java || July 2022 – September 2022" 
             description="Gained hands-on experience in Android development using Java and developed various applications such as Prattle. Additionally, worked on web development projects."
           />
           <Internship 
-            company="NoviTech R & D Pvt Ltd." 
-            program="1-month Data Analyst program" 
+            company="NoviTech R & D Pvt Ltd. " 
+            program="Data Analyst || July 2025 – August 2025" 
             description="Gained hands-on experience in data analytics using Power BI, Excel, and Tableau to extract actionable insights from complex datasets. Developed and implemented machine learning and deep learning models in Python to solve real-world problems and support data-driven decision-making."
           />
 
-          <div className="degrees learn">
-            <h3>Continuous Learning</h3>
-            <h4>Always learning new technologies. Currently focused on DSA and Machine Learning.</h4>
-          </div>
+          <Internship
+  company="Pacer Group | Dec 2025 - Present"
+  program="US IT Recruiter"
+  description={
+    <ul>
+      <li>Managed candidate pipelines and recruitment data for enterprise clients including BMW, Intuit, Dell Technologies, Comcast, TCS, Raymond James, and Southern Company.</li>
+      <li>Analyzed recruitment metrics, candidate conversion rates, and sourcing performance to support data-driven hiring decisions.</li>
+      <li>Maintained and organized candidate data using ATS and recruitment platforms, ensuring data accuracy and pipeline visibility.</li>
+      <li>Generated reports and tracked key recruitment KPIs to improve sourcing efficiency and reduce time-to-fill.</li>
+      <li>Applied Boolean search techniques and data-driven sourcing strategies to identify and engage qualified candidates.</li>
+    </ul>
+  }
+/>
+
+       
         </div>
       </div>
     </div>

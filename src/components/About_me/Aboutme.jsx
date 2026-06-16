@@ -1,7 +1,7 @@
 // import { AiOutlineTeam } from "react-icons/ai";
 import { FaAndroid, FaCode, FaDatabase } from "react-icons/fa6";
 import { LuBrainCircuit } from "react-icons/lu";
-import pp2 from '../../assets/icon/pp2.jpg';
+import pp2 from '../../assets/icon/Pphoto.png';
 import Box from '../Box/Box';
 import Heading from '../Heading/Heading';
 import './Aboutme.css';
@@ -10,14 +10,32 @@ function Aboutme() {
   return (
     <div id="About_me">
       <div className="container aboutme">
-        <Heading heading="About Me" para="Passionate technologist with 5+ years of experience in building scalable applications and deriving insights from complex datasets." />
+        <Heading
+  heading="About Me"
+  para="Computer Science graduate with expertise in web development and a growing passion for data analytics, business intelligence, and data-driven decision making."
+/>
         
         <div className="middle">
-          <div className="left">
-            <p>I'm a versatile full-stack developer and data analyst who thrives at the intersection of technology and business intelligence. My journey began with a Computer Science degree, but my real education came from building production systems that serve millions of users.</p>
-            <br />
-            <p>When I'm not coding, you'll find me exploring the latest in machine learning, contributing to open-source projects, or mentoring upcoming developers. I believe in the power of clean code and data-driven decisions to create meaningful impact.</p>
-          </div>
+         <div className="left">
+  <p>
+    I'm a passionate Full Stack Developer and aspiring Data Analyst with a
+    background in Computer Science. My journey started with web development,
+    where I built responsive and user-friendly applications using the MERN
+    stack, helping me develop strong problem-solving and software engineering
+    skills.
+  </p>
+
+  <br />
+
+  <p>
+    Over time, I developed a strong interest in data analytics and business
+    intelligence. Today, I work with technologies like SQL, Power BI, Excel,
+    Python, and Tableau to transform raw data into meaningful insights while
+    continuing to enhance my web development expertise. I enjoy combining
+    technical knowledge with analytical thinking to create solutions that
+    deliver real business value.
+  </p>
+</div>
           <div className="right">
             <img src={pp2} alt="Arpan Khare profile" />
           </div>
