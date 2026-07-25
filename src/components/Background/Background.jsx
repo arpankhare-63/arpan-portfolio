@@ -90,14 +90,14 @@ const Background = () => {
 
           <Internship
   company="Pacer Group | Dec 2025 - Present"
-  program="US IT Recruiter"
+  program="Data Analyst"
   description={
     <ul>
-      <li>Managed candidate pipelines and recruitment data for enterprise clients including BMW, Intuit, Dell Technologies, Comcast, TCS, Raymond James, and Southern Company.</li>
-      <li>Analyzed recruitment metrics, candidate conversion rates, and sourcing performance to support data-driven hiring decisions.</li>
-      <li>Maintained and organized candidate data using ATS and recruitment platforms, ensuring data accuracy and pipeline visibility.</li>
-      <li>Generated reports and tracked key recruitment KPIs to improve sourcing efficiency and reduce time-to-fill.</li>
-      <li>Applied Boolean search techniques and data-driven sourcing strategies to identify and engage qualified candidates.</li>
+     <li>Managed and analyzed business data using Microsoft Excel, SQL, and Power BI to support reporting and decision-making.</li>
+<li>Collected, cleaned, and validated datasets to ensure data accuracy and consistency.</li>
+<li>Developed interactive dashboards and reports in Power BI to monitor key performance indicators (KPIs).</li>
+<li>Extracted, transformed, and analyzed data using SQL to identify trends and generate actionable insights.</li>
+<li>Collaborated with cross-functional teams to deliver data-driven solutions and improve business performance.</li>
     </ul>
   }
 />

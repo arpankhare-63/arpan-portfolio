@@ -23,8 +23,8 @@ const Projects = () => {
        <p className='prb'>APIs</p>
         </div>
         <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/Virtual-Assistant/">🔗Live</Button>
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Prattle"><FiGithub/> code</Button>
+    
 </div> 
                   </div>
             </div>
@@ -43,8 +43,8 @@ const Projects = () => {
         </div>
         <div className="probtn">
         <Button className="btn-blue special" href="https://github.com/arpankhare-63/Blinkit-Data-Analysis "><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/Blinkit-Data-Analysis ">
-  🔗 Live
+        <Button className="btn-green special" href="https://github.com/arpankhare-63/Blinkit-Data-Analysis#%EF%B8%8F-dashboard-preview">
+ Live
 </Button></div> 
                   </div>
             </div>
@@ -52,6 +52,19 @@ const Projects = () => {
 <div className="bottom base">
 
     {/* Projets */}
+
+     <div className="pro ints">
+            <h2>Pizza Ping</h2>
+            <h5> “Pizza Mania is a SQL-based data analysis project that explores pizza sales data to identify sales trends, customer purchasing behavior, revenue insights, and product performance using SQL queries.”</h5>
+             <div className="probtn">
+       <p className='prb'>SQL</p>
+        </div>
+        <div className="probtn">
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Pizza-Mania"><FiGithub/> code</Button>
+        <Button className="btn-green special" href="https://github.com/arpankhare-63/Pizza-Mania/blob/main/Pizza_Ping%20SQL.pdf">
+  🔗 Live
+</Button></div>
+        </div>
      <div className="pro ints">
             <h2>Virtual Assistant</h2>
             <h5>A browser-based AI-like assistant that listens and talks using JavaScript Speech APIs 🎤🤖.</h5>
@@ -67,6 +80,8 @@ const Projects = () => {
   🔗 Live
 </Button></div>        </div>
 {/* 2nd */}
+ 
+
          <div className="pro ints">
             <h2>Simon Say Game</h2>
             <h5>🧠 “A fun browser game that trains focus and recall.”</h5>
@@ -95,10 +110,8 @@ const Projects = () => {
        <p className='prb'>Form Api</p>
         </div>
          <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Virtual-Assistant"><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/Taskly/">
-  🔗 Live
-</Button></div>
+        <Button className="btn-blue special" href="https://github.com/arpankhare-63/BodhiAhaar"><FiGithub/> code</Button>
+</div>
         </div>
 
   <div className="pro ints">
@@ -154,24 +167,7 @@ const Projects = () => {
 
        
 
-         <div className="pro ints">
-            <h2>To Do APP</h2>
-            <h5>📝 Add, delete, and manage your daily goals easily.</h5>
-             <div className="probtn">
-       <p className='prb'>HTML</p>
-       <p className='prb'>CSS</p>
-       <p className='prb'>JS</p>
-       
-        </div>
-        <div className="probtn">
-        <Button className="btn-blue special" href="https://github.com/arpankhare-63/Taskly"><FiGithub/> code</Button>
-        <Button className="btn-green special" href="https://arpankhare-63.github.io/Taskly/">
-  🔗 Live
-</Button></div>
-        </div>
-
-
-        
+            
 
         
 </div>
